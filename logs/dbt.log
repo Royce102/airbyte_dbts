@@ -1,0 +1,26 @@
+
+
+============================== 2023-02-07 23:55:12.822311 | fe081008-2ae3-4ae6-8a81-05082d1918be ==============================
+[0m23:55:12.822311 [info ] [MainThread]: Running with dbt=1.4.1
+[0m23:55:12.822311 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\rsamuel\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m23:55:12.827337 [debug] [MainThread]: Tracking: tracking
+[0m23:55:12.887556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DBF067580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DBF067700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DBF067880>]}
+[0m23:55:26.986717 [debug] [MainThread]: Starter project path: c:\projects\trevcoinc\airbyte_dbts\lib\site-packages\dbt\include\starter_project
+[0m23:55:36.515468 [info ] [MainThread]: 
+Your new dbt project "merchant_listing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:55:36.519612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DBF067580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DBF03F550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DBF03F730>]}
+[0m23:55:36.519612 [debug] [MainThread]: Flushing usage events
